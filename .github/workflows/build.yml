@@ -38,6 +38,6 @@ jobs:
         with:
           context: "{{defaultContext}}:backend"
           push: true
-          tags: ${{ secrets.DOCKER_REGISTRY }}/dhbw-devops:latest
+          tags: ${{ secrets.DOCKER_REGISTRY }}/dhbwdevops:latest
           secrets: |
             GIT_AUTH_TOKEN=${{ github.token }}
