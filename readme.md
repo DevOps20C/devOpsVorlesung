@@ -1,3 +1,4 @@
-# Should this be public?
+# DevOps CI/CD example
 
-We asked MR Lieb, he said yes****
+* using GitHub Actions
+* automatic deploy using Watchtower
