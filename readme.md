@@ -9,6 +9,15 @@ redeployed using the newly pushed image.
 
 ## Flow
 
-push to main -triggers-> github action -pushes-> docker image using dockerfile in repository is 
-pushed to registry -> 
-watchtower -checks-> new image detected in registry -> redeploy using new image 
+push to main 
+-triggers-> 
+github action 
+-pushes-> 
+docker image using dockerfile in repository to registry 
+-> 
+watchtower 
+-checks-> 
+new image detected in registry 
+-> redeploy using new image 
+
+
