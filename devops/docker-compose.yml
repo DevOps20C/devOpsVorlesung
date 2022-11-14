@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+    dhbw_devops:
+        container_name: dhbw_devops_webserver
+        volumes:
+            - 'dhbw_devops:/data'
+        networks: 
+            - dhbw-proxy
+        labels:
+            - com.centurylinklabs.watchtower.scope=dhbw
+        image: publicregistry.amtmann.de/dhbwdevops:latest
+
+networks:
+  dhbw-proxy:
+    external: true
+
+volumes:
+  dhbw_devops:
+    external: false
