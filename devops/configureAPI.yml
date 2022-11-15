@@ -1,0 +1,21 @@
+- name: run api
+  hosts: all
+  remote_user: root
+  become: yes
+
+  tasks:
+  - name: install pip
+    apt:
+      name: python3-pip
+      update_cache: true
+
+  - name: install requirements
+    pip:
+      requirements: /vagrant/requirements.txt
+  - name: start api
+    shell: 
+      cmd: "gunicorn --conf gunicorn_conf.py --bind 0.0.0.0:5000 app:app"
+      chdir: /vagrant
+
+
+  
