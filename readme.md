@@ -25,4 +25,8 @@ new image detected in registry
 
 [dhbwdevops image](https://ui-public-registry.amtmann.de/#!/taghistory/image/dhbwdevops/tag/latest)
 
+# Azure Container Deployments (not CD atm)
+
+[Amtmann](https://dhbw-devops.azurewebsites.net/)
+
 
