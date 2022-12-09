@@ -27,6 +27,8 @@ new image detected in registry
 
 # Azure Container Deployments (not CD atm)
 
+[Pauer](https://tinf20cdevops.azurewebsites.net/)
+
 [Amtmann](https://dhbw-devops.azurewebsites.net/)
 
 
