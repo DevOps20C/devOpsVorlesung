@@ -10,4 +10,4 @@ COPY ./ /devops/
 
 ENV FLASK_APP=app/__init__.py
 
-CMD ["gunicorn", "--conf", "gunicorn_conf.py", "--bind", "0.0.0.0:5001", "app:app"]
+CMD ["gunicorn", "--conf", "gunicorn_conf.py", "--bind", "0.0.0.0:80", "app:app"]
