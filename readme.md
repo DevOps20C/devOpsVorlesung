@@ -20,4 +20,9 @@ watchtower
 new image detected in registry 
 -> redeploy using new image 
 
+# Registry UI
+[Public Argon Registry](https://ui-public-registry.amtmann.de/)
+
+[dhbwdevops image](https://ui-public-registry.amtmann.de/#!/taghistory/image/dhbwdevops/tag/latest)
+
 
