@@ -25,7 +25,7 @@ new image detected in registry
 
 [dhbwdevops image](https://ui-public-registry.amtmann.de/#!/taghistory/image/dhbwdevops/tag/latest)
 
-# Azure Container Deployments (not CD atm)
+# Azure Container Deployments
 
 [Pauer](https://tinf20cdevops.azurewebsites.net/)
 
