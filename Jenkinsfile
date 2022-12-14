@@ -10,8 +10,9 @@ node {
     stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-
-        app = docker.build("public-argon-registry.amtmann.de/devops-jenkins")
+        dir('devops') {
+            app = docker.build("public-argon-registry.amtmann.de/devops-jenkins")
+        }
     }
 
     stage('Test image') {
