@@ -1,12 +1,13 @@
 import pytest
-from devops import app as test_app
+from devops.app import app as test_app
 from werkzeug.test import Client
 
 
 @pytest.fixture()
 def flask_app():
-    flask_app = test_app.app
+    flask_app = test_app
     return flask_app
+
 
 @pytest.fixture()
 def client(flask_app):
