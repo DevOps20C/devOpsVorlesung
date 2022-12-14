@@ -8,7 +8,7 @@ services:
             - dhbw-proxy
         labels:
             - com.centurylinklabs.watchtower.scope=dhbw
-        image: publicregistry.amtmann.de/dhbwdevops:latest
+        image: public-registry.amtmann.de/dhbwdevops:latest
 
 networks:
   dhbw-proxy:
