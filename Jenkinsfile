@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
         dir('devops') {
-            app = docker.build("public-argon-registry.amtmann.de/devops-jenkins")
+            app = docker.build("public-registry.amtmann.de/devops-jenkins")
         }
     }
 
