@@ -20,7 +20,7 @@ node {
          * For this example, we're using a Volkswagen-type approach ;-) */
 
         app.inside {
-            sh 'pytest devops/tests/'
+            sh 'pytest ./devops/tests/devopstest.py'
         }
     }
 
