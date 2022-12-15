@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 3s
+  external_labels:
+    monitor: "devops-app"
+
+scrape_configs:
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["prometheus:9090"]
+
+  - job_name: "devops"
+    static_configs:
+      - targets: ["app:5000"]
