@@ -4,7 +4,7 @@ from prometheus_flask_exporter import PrometheusMetrics
 import os
 
 app = Flask(__name__)
-metrics = PrometheusMetrics(app)
+PrometheusMetrics(app)
 
 @app.route('/')
 def index():
