@@ -1,3 +1,4 @@
 Flask==2.0.2
 gunicorn
 pytest
+prometheus-flask-exporter
