@@ -46,3 +46,4 @@ new image detected in registry
 * Vorlesung 7 (Integrationstests) by Amtmann
 * Vorlesung 7 (SonarQube) by TODO
 * Vorlesung 8 (GitHub Action CI & CD to Azure App Service, private server) by Amtmann
+* Vorlesung 9 (Prometheus) by TODO
