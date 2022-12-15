@@ -36,3 +36,13 @@ new image detected in registry
 
 - Download [terraform cli](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli).
 - Use documentation [here](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build).
+
+# Work Distribution
+* Vorlesung 2 (Docker & Compose) by Amtmann
+* Vorlesung 3 (Vagrant) by Plaschko
+* Vorlesung 4 (Ansible) by Plaschko
+* Vorlesung 5 (Azure App Service) by does not count
+* Vorlesung 6 (Terraform) by Pauer & Plaschko
+* Vorlesung 7 (Integrationstests) by Amtmann
+* Vorlesung 7 (SonarQube) by TODO
+* Vorlesung 8 (GitHub Action CI & CD to Azure App Service, private server) by Amtmann
