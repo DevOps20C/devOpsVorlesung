@@ -49,7 +49,7 @@ jobs:
           secrets: |
             GIT_AUTH_TOKEN=${{ github.token }}
   build:
-    name: Build
+    name: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
