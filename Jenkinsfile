@@ -2,7 +2,7 @@ node {
     def app
 
     stage('Clone repository') {
-        /* Let's make sure we have the repository cloned to our workspace */
+        /* Cloning the git repository defined in the Jenkins job configuration to the local workspace */
 
         checkout scm
     }
@@ -16,9 +16,6 @@ node {
     }
 
     stage('Test image') {
-        /* Ideally, we would run a test framework against our image.
-         * For this example, we're using a Volkswagen-type approach ;-) */
-
         app.inside {
             sh 'pytest ./devops/tests/devopstest.py'
         }
